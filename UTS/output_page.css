@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color:#B5C18E;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.nota {
+    color: black;
+    background-image: white;
+    width: 350px;
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 15px;
+    background-color: #f9f9f9;
+    margin: 0 auto;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.logo img {
+    width: 165px;
+    height: auto;
+    margin-left: 91px;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+.nota h2 {
+    text-align: center;
+    color: black;
+    margin-top: 0;
+}
+
+.nota p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.alamat {
+    text-align: center;
+    color: black;
+}
+
+.Logout input[type="button"] {
+    display: block;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 50px auto 0; 
+    background-color: #B99470;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Logout input[type="button"]:hover{
+    background-color: rgb(255, 126, 103);
+}
+
+.cookies{
+    color: black;
+    text-align: center;
+    background-image: black;
+    width: 300px;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 0 auto;
+}
